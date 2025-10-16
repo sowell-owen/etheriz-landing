@@ -1,0 +1,8 @@
+{
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "off",
+  "emmet.triggerExpansionOnTab": true,
+  "editor.useTabStops": true,
+  "editor.stickyTabStops": false,
+  "editor.detectIndentation": true
+}
