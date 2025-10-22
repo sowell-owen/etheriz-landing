@@ -8,42 +8,34 @@ export const ourCases = {
     {
       id: 1,
       image: "/images/cases/apeing-imgs/1.webp",
-      title: "Cross-Chain NFT Marketplace",
+      title: "Memecoin Trading App",
       description:
-        "Developed a fully custom NFT platform with seamless cross-chain support and gas-optimized smart contracts. Integrated multichain wallet and real-time metadata updates.",
-      tags: ["NFT", "Blockchain", "Website", "Marketplace"],
+        "Developed a fully custom memecoin trading platform on Solana withgas-optimized smart contracts.",
+      tags: ["Solana", "Blockchain", "Trading", "Terminal"],
     },
     {
       id: 2,
       image: "/images/cases/betski-imgs/1.webp",
-      title: "Telegram DeFi Bot",
+      title: "ICO investment platform",
       description:
-        "Built a secure Telegram bot enabling users to swap tokens, track portfolios, and interact with DeFi protocols—all without leaving the chat.",
-      tags: ["NFT", "Blockchain", "Website", "Marketplace"],
+        "Built a secure multichain investment platform for crypto casino, enabling users to buy tokens from any major chain, track their investments and earn rewards.",
+      tags: ["ICO", "Token", "Casino", "Presale"],
     },
     {
       id: 3,
       image: "/images/cases/draupnir-imgs/1.webp",
-      title: "CEX-to-DEX Bridge Interface",
+      title: "Mobile Crypto Wallet",
       description:
-        "Created a lightweight dApp that connects centralized exchange accounts with decentralized liquidity pools, allowing users to bridge assets effortlessly.",
-      tags: ["NFT", "Blockchain", "Website", "Marketplace"],
+        "Created a multichain, secure crypto wallet with hardware element to it, providing users with secure access to crypto.",
+      tags: ["Wallet", "Bitcoin", "Ethereum", "Mobile"],
     },
     {
       id: 4,
       image: "/images/cases/vora-imgs/1.webp",
-      title: "DAO Governance Platform",
+      title: "Private Hedge Fund",
       description:
-        "Developed a secure and scalable governance platform for decentralized organizations, enabling transparent decision-making and community engagement.",
-      tags: ["NFT", "Blockchain", "Website", "Marketplace"],
-    },
-    {
-      id: 5,
-      image: "/images/cases/wow-imgs/1.webp",
-      title: "Telegram DeFi Bot",
-      description:
-        "Built a secure Telegram bot enabling users to swap tokens, track portfolios, and interact with DeFi protocols—all without leaving the chat.",
-      tags: ["NFT", "Blockchain", "Website", "Marketplace"],
-    },
+        "Developed a secure platform for private hedge fund that provides enterprises/high-networth individuals with high-return investment opportunities.",
+      tags: ["Investment", "APY", "HedgeFund"],
+    }
   ],
 };

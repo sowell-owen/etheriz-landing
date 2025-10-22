@@ -34,7 +34,7 @@ export const data = {
         subtitle: "Completed projects",
       },
       {
-        title: "25+",
+        title: "15+",
         subtitle: "Web3 native devs",
       },
       {

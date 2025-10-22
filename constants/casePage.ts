@@ -2,28 +2,28 @@ export const caseData = [
   {
     id: 1,
     banner: {
-      title: "Cross-Chain NFT Marketplace",
-      subtitle: "Multichain. Gas-Optimized. Built for Scale.",
+      title: "Developed a fully custom memecoin trading platform on Solana withgas-optimized smart contracts.",
+      subtitle: "Solana. Gas-Optimized. Built for Scale.",
       link: "",
       img: "/images/cases/apeing-imgs/1.webp",
     },
     indicators: [
-      {
-        title: "6M",
-        subtitle: "Active Users",
-      },
-      {
-        title: "$54M",
-        subtitle: "In Volume",
-      },
-      {
-        title: "120K+",
-        subtitle: "NFTs listed across 3 chains",
-      },
-      {
-        title: "~35%",
-        subtitle: "Average gas savings via optimized minting logic",
-      },
+      // {
+      //   title: "6M",
+      //   subtitle: "Active Users",
+      // },
+      // {
+      //   title: "$54M",
+      //   subtitle: "In Volume",
+      // },
+      // {
+      //   title: "120K+",
+      //   subtitle: "NFTs listed across 3 chains",
+      // },
+      // {
+      //   title: "~35%",
+      //   subtitle: "Average gas savings via optimized minting logic",
+      // },
     ],
     overview: {
       title: "Overview",
@@ -85,9 +85,9 @@ export const caseData = [
   {
     id: 2,
     banner: {
-      title: "Telegram DeFi Bot",
-      subtitle: "Multichain. Gas-Optimized. Built for Scale.",
-      link: "",
+      title: "ICO investment platform",
+      subtitle: "Built a secure multichain investment platform for crypto casino, enabling users to buy tokens from any major chain, track their investments and earn rewards.",
+      link: "https://invest.betski.com/",
       img: "/images/cases/betski-imgs/1.webp",
     },
     indicators: [
@@ -167,8 +167,8 @@ export const caseData = [
   {
     id: 3,
     banner: {
-      title: "CEX-to-DEX Bridge Interface",
-      subtitle: "Multichain. Gas-Optimized. Built for Scale.",
+      title: "Mobile Crypto Wallet",
+      subtitle: "Multichain. Secure. Reliable.",
       link: "",
       img: "/images/cases/draupnir-imgs/1.webp",
     },
