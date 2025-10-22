@@ -35,6 +35,8 @@ export default function CasePage() {
   const contactRef = useRef<HTMLDivElement>(null);
   const headerRef = useRef<HTMLDivElement>(null);
 
+  return <></>;
+
   return (
     <>
       <div
