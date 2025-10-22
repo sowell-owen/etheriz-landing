@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { FaArrowRight } from "react-icons/fa";
-import Link from "next/link";
+// import { FaArrowRight } from "react-icons/fa";
+// import Link from "next/link";
 
 type OurCase = {
   id: string | number;
@@ -156,32 +156,32 @@ export default function CaseCards({
                 </span>
               </div>
 
-              {!hoverable && (
-                <Link href={`/cases/${data.title.replace(/\s+/g, "-")}`}>
-                  <button className="text-white cursor-pointer hover:text-[#426EFF] bg-[#426EFF40] hover:bg-transparent border border-white/0 hover:border-white/10 font-[400] flex items-center gap-1 text-base py-3 px-6 rounded-full self-start mt-9 transition-colors duration-200">
-                    View Case <FaArrowRight size={10} />
-                  </button>
-                </Link>
-              )}
+              {/*{!hoverable && (*/}
+              {/*  <Link href={`/cases/${data.title.replace(/\s+/g, "-")}`}>*/}
+              {/*    <button className="text-white cursor-pointer hover:text-[#426EFF] bg-[#426EFF40] hover:bg-transparent border border-white/0 hover:border-white/10 font-[400] flex items-center gap-1 text-base py-3 px-6 rounded-full self-start mt-9 transition-colors duration-200">*/}
+              {/*      View Case <FaArrowRight size={10} />*/}
+              {/*    </button>*/}
+              {/*  </Link>*/}
+              {/*)}*/}
             </div>
 
-            {hoverable && (
-              <Link
-                href={`/cases/${data.title.replace(/\s+/g, "-")}`}
-                className="z-10 inline-block mt-[10px] w-[max-content]"
-              >
-                <button
-                  className={`font-[400] flex items-center gap-1 text-base py-3 px-6 rounded-full self-start transition-colors mt-[20px] lg:mt-[0] duration-200
-        ${
-          (hoverable && isHoveredCase === data.id) || isMobile
-            ? "bg-[#426EFF40] text-white border border-white/0 cursor-pointer"
-            : "text-[#426EFF] border border-white/10 cursor-default"
-        }`}
-                >
-                  View Case <FaArrowRight size={10} />
-                </button>
-              </Link>
-            )}
+        {/*    {hoverable && (*/}
+        {/*      <Link*/}
+        {/*        href={`/cases/${data.title.replace(/\s+/g, "-")}`}*/}
+        {/*        className="z-10 inline-block mt-[10px] w-[max-content]"*/}
+        {/*      >*/}
+        {/*        <button*/}
+        {/*          className={`font-[400] flex items-center gap-1 text-base py-3 px-6 rounded-full self-start transition-colors mt-[20px] lg:mt-[0] duration-200*/}
+        {/*${*/}
+        {/*  (hoverable && isHoveredCase === data.id) || isMobile*/}
+        {/*    ? "bg-[#426EFF40] text-white border border-white/0 cursor-pointer"*/}
+        {/*    : "text-[#426EFF] border border-white/10 cursor-default"*/}
+        {/*}`}*/}
+        {/*        >*/}
+        {/*          View Case <FaArrowRight size={10} />*/}
+        {/*        </button>*/}
+        {/*      </Link>*/}
+        {/*    )}*/}
           </div>
         </div>
 
