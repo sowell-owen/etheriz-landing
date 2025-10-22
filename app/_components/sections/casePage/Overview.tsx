@@ -27,7 +27,7 @@ export default function Overview({ title, description, imgs }: OverviewProps) {
         height={100}
       />
       <div className="custom-scrollbar flex w-full flex-row overflow-auto gap-[12px] lg:gap-[60px]">
-        {!!imgs.length &&
+        {imgs && !!imgs.length &&
           imgs.map((item, index) => (
             <Image
               src={item}

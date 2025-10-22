@@ -29,7 +29,7 @@ export default function Delivered({
                 height={38}
                 alt="Error"
               />
-              {challenge.title}
+              {challenge?.title}
             </p>
           </div>
           <div className="col-span-1">
@@ -44,7 +44,7 @@ export default function Delivered({
               {result.title}
             </p>
           </div>
-          {!!challenge.data.length &&
+          {!!challenge?.data?.length &&
             challenge.data.map((item, index) => (
               <React.Fragment key={index}>
                 <div className="border-t border-r border-[#252525] leading-[100%] px-[12px] py-[8px] md:px-[20px] md:py-[16px] text-[14px] md:text-[20px] font-normal text-[#FFFFFF99]">

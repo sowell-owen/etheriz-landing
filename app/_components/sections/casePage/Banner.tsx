@@ -27,8 +27,9 @@ export default function Banner({
           </Link>
         )}
       </div>
-      <Image
-        src={img || ""}
+        {img && (
+            <Image
+        src={img}
         className="w-[100%] h-full mb-[40px]  md:mt-[40px] md:mb-[0px] rounded-[12px]"
         alt="Banner"
         width={1920}
@@ -37,6 +38,7 @@ export default function Banner({
         priority
         loading="eager"
       />
+        )}
     </div>
   );
 }
