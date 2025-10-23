@@ -98,10 +98,12 @@ export default function BannerVideo() {
             key="fallback-image"
             src="/video/mobileBanner.webp"
             alt="Banner"
-            width={100}
-            height={100}
+            width={400}
+            height={400}
             className="w-full absolute object-cover top-[30px]"
             loading="eager"
+            quality={100}
+            priority
           />
         </>
       ) : (
